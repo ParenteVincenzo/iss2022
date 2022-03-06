@@ -189,7 +189,7 @@ div.imagedesc{
     
 <head>
    
-<title>radarSystem22</title></head>
+<title>TemplateToFill</title></head>
     
 <body>
 <div id="top">
@@ -204,11 +204,11 @@ div.imagedesc{
 
  
 <div class="remark">
-*Deve essere realizzato il software per un sistema distribuito costituito da due nodi di elaborazione: un RaspberryPi e un PC convenzionale;<br>
-*I due nodi di elaborazione devono potersi scambiare informazione via rete, usando supporti WIFI;<br>
-*I due nodi di elaborazione devono essere ‘programmati’ usando tecnologie software diverse;<br>
-*Come utente mi aspetto che il Led si accenda se pongo un ostacolo a distanza "d" minore di DLIMIT dal Sonar e che il Led si spenga non appena porto l’ostacolo ad una distanza "d" maggiore di DILIMT;<br>
-*In ogni caso posso vedere illuminarsi un punto sul RadarDisplay a distanza "d" dal centro lungo una retta che forma un angolo "teta" rispetto all’asse orizzontale del display;<br>
+*Deve essere realizzato il software per un sistema distribuito costituito da due nodi di elaborazione: un RaspberryPi e un PC convenzionale;
+*I due nodi di elaborazione devono potersi scambiare informazione via rete, usando supporti WIFI;
+*I due nodi di elaborazione devono essere ‘programmati’ usando tecnologie software diverse;
+*Come utente mi aspetto che il Led si accenda se pongo un ostacolo a distanza d<DILIMT dal Sonar e che il Led si spenga non appena porto l’ostacolo ad una distanza d>DILIMT;
+*In ogni caso posso vedere illuminarsi un punto sul RadarDisplay a distanza "d" dal centro lungo una retta che forma un angolo "teta" rispetto all’asse orizzontale del display.
 </div>
 
  
