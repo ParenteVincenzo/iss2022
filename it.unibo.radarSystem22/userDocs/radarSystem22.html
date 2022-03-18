@@ -198,17 +198,23 @@ div.imagedesc{
 
 <div class="body"> 
 <h2>Introduction</h2>
- 
+Primo progetto. 
  
 <h2>Requirements</h2>
 
  
 <div class="remark">
-*Deve essere realizzato il software per un sistema distribuito costituito da due nodi di elaborazione: un RaspberryPi e un PC convenzionale;<br>
-*I due nodi di elaborazione devono potersi scambiare informazione via rete, usando supporti WIFI;<br>
-*I due nodi di elaborazione devono essere ‘programmati’ usando tecnologie software diverse;<br>
-*Come utente mi aspetto che il Led si accenda se pongo un ostacolo a distanza "d" minore di DLIMIT dal Sonar e che il Led si spenga non appena porto l’ostacolo ad una distanza "d" maggiore di DILIMT;<br>
-*In ogni caso posso vedere illuminarsi un punto sul RadarDisplay a distanza "d" dal centro lungo una retta che forma un angolo "teta" rispetto all’asse orizzontale del display;<br>
+ 
+Si desidera costruire un’applicazione software capace di:
+
+<ul>
+<li>(requisito <b>radarGui</b>) mostrare le distanze rilevate da un sensore Sonar <tt>HC-SR04</tt>
+ connesso a un RaspberryPi su un display (RadarDisplay) a forma di radar connesso a un PC.
+
+<center><img src="img/radarDisplay.png" width="10%"></img></center>
+<li>(requisito <b>ledAlarm</b>) accendere un Led se la distanza rilevata dal Sonar 
+è inferiore a un valore limite prefissato denominato <tt>DLIMIT</tt>.
+</li> 
 </div>
 
  
@@ -251,7 +257,7 @@ div.imagedesc{
 
 <div style="background-color:rgba(86, 56, 253, 0.9); width:60%;text-align:left;color:white">
 By Vincenzo Parente email: vincenzo.parente@studio.unibo.it  
-<img src="vincenzoP.jpg" alt="mbot" width="15%" height="15%">
+<img src="./img/vincenzoP.jpg" alt="mbot" width="15%" height="15%">
 </div> 
 </body>
 </html>
